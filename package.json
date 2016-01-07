@@ -1,0 +1,35 @@
+{
+  "name": "fetchman",
+  "version": "0.0.0",
+  "description": "My stellar module",
+  "license": "MIT",
+  "repository": "niksrc/fetchman",
+  "author": {
+    "name": "Nikhil Srivastava",
+    "email": "niksrc@gmail.com",
+    "url": "niksrc.github.io"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "meow": "^3.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1"
+  }
+}
