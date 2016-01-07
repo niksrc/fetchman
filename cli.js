@@ -8,7 +8,7 @@ var cli = meow([
 	'  $ fetchman [username/repo]',
 	'',
 	'Options',
-	'  --help  Show this help',
+	'  --help  Show this help'
 ]);
 
 console.log(fetchman(cli.input[0] || 'unicorns'));
