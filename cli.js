@@ -5,16 +5,10 @@ var fetchman = require('./');
 
 var cli = meow([
 	'Usage',
-	'  $ fetchman [input]',
+	'  $ fetchman [username/repo]',
 	'',
 	'Options',
-	'  --foo  Lorem ipsum. [Default: false]',
-	'',
-	'Examples',
-	'  $ fetchman',
-	'  unicorns & rainbows',
-	'  $ fetchman ponies',
-	'  ponies & rainbows'
+	'  --help  Show this help',
 ]);
 
 console.log(fetchman(cli.input[0] || 'unicorns'));
